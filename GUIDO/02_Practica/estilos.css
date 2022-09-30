@@ -1,0 +1,114 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(15, 73, 233 );
+    color: rgb(83, 255, 51 );
+}
+
+#contenedor{
+    border: 5px inset rgb(222, 222, 222);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#num1{
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    padding: 10px;
+}
+
+#num2{
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    padding: 10px;
+}
+
+#operacion{
+    width: 200px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: red;
+    text-align: center;
+    color: blue;
+}
+
+#resultado{
+    width: 200px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color:red;
+    text-align: center;
+    color: blue;
+}
+
+#suma{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color:red;
+    border-radius: 100%;
+    border: 1px solid green;
+}
+
+#suma:hover{
+    color:blue;
+    background-color:red;
+    border: 1px solid green;
+    font-size: 30px;
+}
+
+#resta{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color: red;
+    border-radius: 100%;
+    border: 1px solid green;
+}
+
+#resta:hover{
+    color: blue;
+    background-color: red;
+    border: 1px solid green;
+    font-size: 30px;
+}
+
+#multiplicacion{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color: red;
+    border-radius: 100%;
+    border: 1px solid green;
+}
+
+#multiplicacion:hover{
+    color: blue;
+    background-color: red;
+    border: 1px solid green;
+    font-size: 30px;
+}
+
+#divicion{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color: red;
+    border-radius: 100%;
+    border: 1px solid green;
+}
+
+#divicion:hover{
+    color: blue;
+    background-color: red;
+    border: 1px solid green;
+    font-size: 30px;
+}

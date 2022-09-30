@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="estilos.css">
+    <title>Signo zodiacal</title>
+  </head>
+  <body>
+    <center>
+      <h1 id="h1">Signo Zodiacal</h1>
+      <hr />
+      Dia de nacimiento:
+      <select id="dia" onchange="cambiar()">
+        <script>
+          for (var i = 1; i <= 30; i++) {
+            document.write("<option value='" + i + "'>" + i + "</option>");
+          }
+        </script></select
+      ><br /><br />
+      Mes de nacimiento:
+      <select id="mes" onchange="cambiar()">
+        <option value="Enero">Enero</option>
+        <option value="Febrero">Febrero</option>
+        <option value="Marzo">Marzo</option>
+        <option value="Abril">Abril</option>
+        <option value="Mayo">Mayo</option>
+        <option value="Junio">Junio</option>
+        <option value="Julio">Julio</option>
+        <option value="Agosto">Agosto</option>
+        <option value="Septiembre">Septiembre</option>
+        <option value="Octubre">Octubre</option>
+        <option value="Noviembre">Noviembre</option>
+        <option value="Diciembre">Diciembre</option>
+      </select><br><br><br><br>
+      <div id="signo" onchange="cambiar()">
+          <img src="img/signo.webp" width="600px" height="350px">
+      </div>
+    </center>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+h1{
+  color:red;
+  font-family:yellow;
+  background:blue;
+}
+body{
+  background:#fb46b7;
+  
+}
+input{
+  background: linear-gradient(0deg,rgba(252,72,2,0.9396751740139211)0%,rgba(252,201,2,1)45%)
+;
+  width:100px;
+  height:30px;
+  border-radius: 100%;
+  border:2px solid black;
+}
+
+body{
+  background-image: url(pizza.jpg);
+  background-size: 10rem;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilos.css">
+  <title>La Chicharronera</title>
+</head>
+
+<body>
+  <center>
+    <h1 class="h1">La Chicharronera</h1><hr>
+    <div class="contenedor">
+      <center>
+      <div class="div1">
+      <h5 class="h5">A</h5>
+      <input class="a" type="range" min="1" max="10" onchange="cargar()" /><span class="va">1</span>
+      </div>
+      <div class="div2">
+      <h5 class="h5">B</h5>
+      <input class="b" type="range" min="1" max="10" onchange="cargar()"/><span class="vb">1</span>
+      </div>
+      <div class="div3">
+      <h5 class="h5">C</h5>
+      <input class="c" type="range" min="1" max="10" onchange="cargar()" /><span class="vc">1</span>
+      </div>
+      <div class="div4">
+      <h5 class="h5">x1 =</h5>
+      <div class="resx1" onchange="cargar()"></div>
+      </div>
+      <div class="div5">
+      <h5 class="h5">x2 =</h5>
+      <div class="resx2" onchange="cargar()"></div>
+      </div>
+      </center>
+    </div>
+  </center>
+  <script src="app.js"></script>
+</body>
+
+</html>

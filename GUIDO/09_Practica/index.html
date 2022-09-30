@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilos.css">
+  <title>04_Ejercicio</title>
+</head>
+
+<body >
+  
+    <h1>Pizzas Chester</h1><hr>
+    <h1>Cuantas:</h1>
+    <input type="range" onchange="numeroPizza()" id="np" min="1" max="10">
+    <span id="vnp">1</span> <br>
+    <h1>Tamaño:</h1>
+    <input type="radio" id="chica" name="tamaño" onchange="tamanio()">Chica <br>
+    <input type="radio" id="mediana" name="tamaño" onchange="tamanio()">Mediana <br>
+    <input type="radio" id="grande" name="tamaño" onchange="tamanio()">Grande <br>
+    <input type="radio" id="familiar" name="tamaño" onchange="tamanio()">Familiar <br>
+    <input type="radio" id="jumbo" name="tamaño" onchange="tamanio()">Jumbo
+    <br>
+    <h1>Extras:</h1> <br>
+    <input type="checkbox" id="papas" name="extras" onchange="extras()">Papas <br>
+    <input type="checkbox" id="alitas" name="extras" onchange="extras()">Alitas <br>
+    <input type="checkbox" id="refresco" name="extras" onchange="extras()">Refresco 2L <br>
+    <input type="checkbox" id="espagueti" name="extras" onchange="extras()">Espaguetti 
+    <br>
+    <h1>Total:</h1>
+    <div id="resultado"></div>
+  
+  <script src="app.js"></script>
+</body>
+
+</html>

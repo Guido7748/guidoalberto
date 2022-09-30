@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/cecytem.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>CRUD CONACTOS</title>
+</head>
+<body onload="checarSesion();">
+    <div class="container">
+        <div class="text-center">
+          <img src="assets/img/cecytem.png" class="mt-5" width="150px" alt="" />
+          <h3 class="mt-2">REGISTRO SISTEMA</h3>
+          <form id="formRegistrar">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+              </div>
+              <div class="mb-3">
+                  <label for="correo" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                  <input type="button" class="btn btn-danger form-control" onclick="registrarUsuario()" value="Enviar">
+                </div>
+                <div class="mb-3">
+                  <a href="index.html" class="btn btn-success form-control">¡Ya tengo cuenta!</a>
+                </div>
+          </form>
+        </div>
+      </div>
+      <script src="assets/js/funciones.js"></script>
+    <script src="assets/js/appLogin.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+#sumar{
+  width: 350px;
+  height: 250px;
+  background: rgb(15, 73, 233);
+  box-shadow: 2px 2px 2px 2px rgb(233, 25, 15);
+  border-radius: 10px 10px 10px 10px;
+  border: 3px solid;
+  position: absolute;
+  top: 31%;
+  left: 8%;
+}
+#s{
+  border-radius: 100%;
+  
+  font-size: 30px;
+  width: 40px;
+}
+#sumar:hover{
+  background: greenyellow;
+}
+#reset{
+  background: rgb(252, 242, 133);
+  font-size: 30px;
+  position: absolute;
+  top: 85%;
+  left: 30%;
+}
+#reset:hover{
+  background: yellow;
+}
+
+#restar{
+  border-radius: 100%;
+  width: 40px;
+  background: rgb(243, 95, 95);
+  font-size: 30px;
+  position: absolute;
+  top: 85%;
+  left: 60%;
+}
+#restar:hover{
+  background: red;
+}

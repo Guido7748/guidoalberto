@@ -1,0 +1,46 @@
+*{
+	transition: 2s all ease;
+}
+
+.cuadro{
+	margin-top: 100px;
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	background: red;
+	transition: 2s all ease;
+
+}
+
+.circulo{
+	margin-top: 100px;
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	background: red;
+	border-radius: 100%;
+	transition: 2s all ease;
+
+}
+
+.triangulo {
+     width: 0;
+     height: 0;
+     border-right: 400px solid transparent;
+     border-top: 400px solid transparent;
+     border-left: 400px solid transparent;
+     border-bottom: 400px solid #f0ad4e;
+}
+
+.rombo {
+	margin-top:100px ;
+     width: 100px; 
+     height: 100px; 
+     border: 3px solid #555; 
+     background: #428bca;
+     -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     transform: rotate(45deg);
+}

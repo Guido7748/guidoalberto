@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FIGURAS</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body onload="dibujar()">
+	<center>
+	<h1>FIGURAS</h1><hr>
+	CUANTOS: <input type="range" min="1" max="10" value=1 id="cuantos" onchange="dibujar()">
+	<span id="vcuantos">1</span><br>
+	FIGURA 
+	<select name="" id="tipo" onchange="dibujar()">
+		<option value="cuadro">Cuadro</option>
+		<option value="circulo">Circulo</option>+
+		<option value="rombo">Rombo</option>
+	</select><br>
+
+	Color Fondo: <input type="color" id="color" value="#ff0000" onchange="dibujar()"	><br>
+	
+	Ancho: <input type="range" min="0" max="800" value=100 id="ancho" onchange="dibujar()">
+	<span id="vancho">100</span><br>
+
+	Alto: <input type="range" min="0" max="800" value=100 id="alto" onchange="dibujar()">
+	<span id="valto">100</span><br>
+
+	Tipo borde:
+	<select name="" id="tipoborde" onchange="dibujar()">
+		<option value="solid">solid</option>
+		<option value="dashed">dashed</option>
+		<option value="double">double</option>
+	</select><br>
+
+	Color Borde: <input type="color" id="colorborde" onchange="dibujar()"	><br>
+
+	Alto Borde: <input type="range" min="1" max="50" value=1 id="anchoborde" onchange="dibujar()">
+	<span id="vanchoborde">1</span><br>
+
+	<div id="resultado">
+		<div id="figura" class="cuadro"></div>
+	</div>
+	</center>
+	<script src="app.js"></script>
+</body>
+</html>

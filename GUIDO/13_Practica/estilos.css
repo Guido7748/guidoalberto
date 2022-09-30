@@ -1,0 +1,53 @@
+body {
+  background-color: greenyellow;
+  color: dodgerblue;
+  font-size: 18px;
+}
+
+.contenedor {
+  background-color: seagreen;
+  width: 250px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.resx1 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.resx2 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.div1 {
+  display: flex;
+}
+
+.div2 {
+  display: flex;
+}
+
+.div3 {
+  display: flex;
+}
+
+.div4 {
+  display: flex;
+}
+
+.div5 {
+  display: flex;
+}
+
+span {
+  margin: 25px;
+}
+
+h5 {
+  margin: 25px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <title>ELEKTRA</title>
+  </head>
+  <body onload="comprar()">
+    <center>
+      <img src="img/elektra.png" alt="elektra" /><br />
+      <label>Creditos Elektra</label><br />
+      <div id="div">
+        <label>Producto:</label>
+        <select id="producto" onchange="comprar()">
+          <option value="moto">Moto Italika</option>
+          <option value="smarttv">Smart TV</option>
+          <option value="refrigerador">Refrigerador</option>
+          <option value="huawei">Huawei</option>
+          <option value="licuadora">Licuadora</option></select
+        ><br />
+        <label>Cantidad:</label><br />
+        <input type="range" id="cantidad" max="10" min="1" onchange="comprar()"/><span id="vcantidad"
+          >1</span
+        ><br />
+        <div id="imagen"></div>
+        <br />
+        <div id="precio">Precio: $0 MXN</div>
+        <br />
+        <label>Plazo:</label><br /> 
+        <input type="radio" name="meses" id="uno" onchange="comprar()" checked/> 12 Meses (+15%) <br />
+        <input type="radio" name="meses" id="dos" onchange="comprar()"/> 18 Meses (+20%) <br />
+        <input type="radio" name="meses" id="tres" onchange="comprar()"/> 24 Meses (+25%) <br /><br>
+        <label>Precio De Contado</label><br />
+        <div id="preciodecontado"></div>
+        <label>Precio A Credito</label>
+        <div id="precioacredito"></div>
+        <label>Abono Mensual</label>
+        <div id="abono"></div>
+      </div>
+    </center>
+    <script src="main.js"></script>
+  </body>
+</html>

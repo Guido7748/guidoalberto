@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="estilos.css">
+<title>COLORES RGB</title>
+</head>
+<body>
+<center>
+<h1>COLORES RGB</h1> <br><br><hr>
+
+<h1 id="h3r">ROJO</h1>
+    <input type="range" id="color-rojo" onchange="colorear()" min="1" max="255"/>
+<span id="vROJO" >1</span><br><br>
+
+    <h1 id="h3v">VERDE</h1>
+    <input type="range" id="color-verde" onchange="colorear()" min="1" max="255"/>
+<span id="vVERDE" >1</span><br><br>
+
+<h1 id="h3a">AZUL</h1>
+<input type="range" id="color-azul" onchange="colorear()" min="1" max="255"/>
+<span id="vAZUL" >1</span><br><br>
+
+<div id="resultado"></div>
+
+</center>
+<script src="app.js"></script>

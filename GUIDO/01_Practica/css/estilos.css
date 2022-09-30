@@ -1,0 +1,17 @@
+{
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	background: greenyellow;
+
+}
+div{
+	widows:200px ;
+	height: 70px;
+	background: blue; 
+	margin: 50px auto;
+	border: 2px solid darkred;
+	color: white;
+}

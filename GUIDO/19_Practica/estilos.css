@@ -1,0 +1,8 @@
+#uno {
+  width: 1000px;
+  height: 1000px;
+  background-color: greenyellow;
+  border-radius: 5px;
+  border: 2px solid darkred;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>temperatura</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+<center><h1>temperatura</h1>
+<hr>
+
+ <h4>valor</h4>
+<input type="range" value="1.00" onchange="convertir()" id="valor" min="1" max="100" ><span id="spd">0</span>
+</br> </br> </br>
+de
+<select id="de" onchange="convertir()">
+  <option value="1">c°</option>
+  <option value="2">f°</option>
+  <<option value="3">k°</option>
+</select>
+a
+<select id="a" onchange="convertir()">
+  <option value="1">c°</option>
+  <option value="2">f°</option>
+  <<option value="3">k°</option>
+</select>
+</center>
+</br></br></br>
+
+<center>
+<div id="d">
+  0Cº
+</div>
+</br>
+<div id="res">
+  0Cº
+</div>
+
+</center>
+<script src="app.js">app.js</script>
+</body>
+
+</html>
